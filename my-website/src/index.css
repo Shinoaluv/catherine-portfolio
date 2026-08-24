@@ -1,0 +1,246 @@
+@import "tailwindcss";
+
+@theme {
+  --color-border: hsl(var(--border));
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+
+  --color-card: hsl(var(--card));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-secondary: hsl(var(--secondary));
+
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-pulse-subtle: pulse-subtle 4s ease-in-out infinite;
+  --animate-fade-in: fade-in 0.7s ease-out forwards;
+  --animate-fade-in-delay-1: fade-in 0.7s ease-out 0.2s forwards;
+  --animate-fade-in-delay-2: fade-in 0.7s ease-out 0.4s forwards;
+  --animate-fade-in-delay-3: fade-in 0.7s ease-out 0.6s forwards;
+  --animate-fade-in-delay-4: fade-in 0.7s ease-out 0.8s forwards;
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-8px);
+    }
+  }
+
+  @keyframes pulse-subtle {
+    0%,
+    100% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0.8;
+    }
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+@layer base {
+  :root {
+    /* LIGHT MODE — blush / warm pink */
+    --background: 340 100% 98%;
+    --foreground: 330 18% 18%;
+
+    --card: 0 0% 100%;
+
+    --primary: 338 60% 58%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 330 55% 93%;
+
+    --muted: 335 35% 95%;
+    --muted-foreground: 330 10% 42%;
+
+    --border: 335 28% 88%;
+  }
+
+  .dark {
+    /* DARK MODE — engineering / blueprint feel */
+    --background: 260 28% 9%;
+    --foreground: 330 30% 94%;
+
+    --card: 260 24% 13%;
+
+    --primary: 338 75% 68%;
+    --primary-foreground: 260 28% 9%;
+
+    --secondary: 270 20% 18%;
+
+    --muted: 265 18% 16%;
+    --muted-foreground: 320 12% 72%;
+
+    --border: 270 18% 25%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground transition-colors duration-300;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    min-height: 100vh;
+  }
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+
+  @media (width >= 640px) {
+    max-width: 640px;
+  }
+
+  @media (width >= 768px) {
+    max-width: 768px;
+  }
+
+  @media (width >= 1024px) {
+    max-width: 1024px;
+  }
+
+  @media (width >= 1280px) {
+    max-width: 1280px;
+  }
+
+  @media (width >= 1400px) {
+    max-width: 1400px;
+  }
+}
+
+@utility card-hover {
+  @apply transition-transform duration-300 hover:scale-[1.02] hover:shadow-lg;
+}
+
+@utility gradient-border {
+  @apply relative rounded-md;
+  background: linear-gradient(
+    to right,
+    hsl(var(--card)),
+    hsl(var(--card))
+  );
+  background-clip: padding-box;
+  border: 1px solid hsl(var(--border));
+}
+
+@utility cosmic-button {
+  @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium
+    transition-all duration-300
+    hover:shadow-[0_0_18px_rgba(217,108,145,0.35)]
+    hover:scale-105 active:scale-95;
+}
+
+/* Custom visual layers for the portfolio */
+
+.portfolio-gradient {
+  background:
+    radial-gradient(
+      circle at 15% 20%,
+      rgba(255, 182, 205, 0.32),
+      transparent 32%
+    ),
+    radial-gradient(
+      circle at 85% 25%,
+      rgba(221, 180, 255, 0.22),
+      transparent 28%
+    ),
+    linear-gradient(
+      135deg,
+      hsl(var(--background)),
+      hsl(var(--background))
+    );
+}
+
+.dark .portfolio-gradient {
+  background:
+    radial-gradient(
+      circle at 20% 20%,
+      rgba(236, 72, 153, 0.13),
+      transparent 28%
+    ),
+    radial-gradient(
+      circle at 80% 15%,
+      rgba(147, 51, 234, 0.12),
+      transparent 30%
+    ),
+    linear-gradient(
+      135deg,
+      hsl(var(--background)),
+      hsl(var(--background))
+    );
+}
+
+.blueprint-grid {
+  background-image:
+    linear-gradient(
+      rgba(255, 255, 255, 0.035) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.035) 1px,
+      transparent 1px
+    );
+  background-size: 36px 36px;
+}
+
+.light-grid {
+  background-image:
+    linear-gradient(
+      rgba(217, 108, 145, 0.04) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(217, 108, 145, 0.04) 1px,
+      transparent 1px
+    );
+  background-size: 42px 42px;
+}
+
+.glass-card {
+  background: color-mix(in srgb, hsl(var(--card)) 82%, transparent);
+  backdrop-filter: blur(14px);
+  border: 1px solid hsl(var(--border));
+}
+
+.pink-glow {
+  box-shadow:
+    0 12px 40px rgba(217, 108, 145, 0.14);
+}
+
+.section-label {
+  @apply uppercase tracking-[0.24em] text-xs font-semibold text-primary;
+}
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
