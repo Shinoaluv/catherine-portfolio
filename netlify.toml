@@ -1,6 +1,6 @@
 [build]
   base = "my-website"
-  command = "npm run build"
+  command = "npm ci --include=dev --include=optional && npm run build"
   publish = "dist"
 
 [[redirects]]
