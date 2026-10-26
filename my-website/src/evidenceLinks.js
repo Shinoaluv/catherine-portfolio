@@ -88,8 +88,12 @@ export const evidenceLinks = {
   ],
   "DoubleS": [
     {
-      "label": "View startup",
-      "url": ""
+      "label": "View video",
+      "url": "https://drive.google.com/file/d/1tmK2D9JswtvjkSOlvU1K2GKtRu3xiF2b/view?usp=sharing"
+    },
+    {
+      "label": "View business plan",
+      "url": "/evidence/doubles-business-plan.pdf"
     }
   ],
   "YUBAI": [
