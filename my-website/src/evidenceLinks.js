@@ -78,10 +78,6 @@ export const evidenceLinks = {
     {
       "label": "View certificate",
       "url": "/evidence/pioneer-committee-certificate.pdf"
-    },
-    {
-      "label": "View my research",
-      "url": "/evidence/pioneer-research-paper.pdf"
     }
   ],
   "Freelance photography": [
