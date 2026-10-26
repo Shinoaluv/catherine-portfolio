@@ -15,8 +15,8 @@ export const evidenceLinks = {
   ],
   "AI and Workforce Readiness for Computer Scientists Across Career Stages": [
     {
-      "label": "View research",
-      "url": ""
+      "label": "View my research",
+      "url": "/evidence/pioneer-research-paper.pdf"
     }
   ],
   "AI assistants for digital boundary communication and management": [
@@ -76,8 +76,8 @@ export const evidenceLinks = {
   "Code 2 College": [],
   "Pioneer Academics Alumni & Social Media Committee": [
     {
-      "label": "View activity",
-      "url": ""
+      "label": "View certificate",
+      "url": "/evidence/pioneer-committee-certificate.pdf"
     }
   ],
   "Freelance photography": [
