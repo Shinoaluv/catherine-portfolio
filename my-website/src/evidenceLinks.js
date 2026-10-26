@@ -28,7 +28,7 @@ export const evidenceLinks = {
   "Sound of the Future": [
     {
       "label": "View nonprofit",
-      "url": ""
+      "url": "https://soundofthefuture.netlify.app/"
     }
   ],
   "AI & Employment Research Initiative": [
@@ -39,8 +39,12 @@ export const evidenceLinks = {
   ],
   "AI & Asian Restaurant Technology Study": [
     {
-      "label": "View study",
-      "url": ""
+      "label": "Read English article",
+      "url": "/evidence/southern-news-group-english.pdf"
+    },
+    {
+      "label": "Read Chinese article",
+      "url": "/evidence/southern-news-group-chinese.pdf"
     }
   ],
   "VEX Robotics": [
