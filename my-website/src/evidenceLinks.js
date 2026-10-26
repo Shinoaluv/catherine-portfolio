@@ -50,7 +50,7 @@ export const evidenceLinks = {
   "VEX Robotics": [
     {
       "label": "View robotics",
-      "url": ""
+      "url": "https://events.vex.com/teams/V5RC/1065A"
     }
   ],
   "Science Olympiad": [
@@ -71,24 +71,9 @@ export const evidenceLinks = {
       "url": ""
     }
   ],
-  "Math UIL": [
-    {
-      "label": "View activity",
-      "url": ""
-    }
-  ],
-  "Rice Elite Tech Camp": [
-    {
-      "label": "View activity",
-      "url": ""
-    }
-  ],
-  "Code 2 College": [
-    {
-      "label": "View activity",
-      "url": ""
-    }
-  ],
+  "Math UIL": [],
+  "Rice Elite Tech Camp": [],
+  "Code 2 College": [],
   "Pioneer Academics Alumni & Social Media Committee": [
     {
       "label": "View activity",

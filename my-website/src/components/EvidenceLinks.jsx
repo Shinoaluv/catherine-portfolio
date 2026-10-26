@@ -13,6 +13,7 @@ function usableUrl(value) {
 
 export function EvidenceLinks({ entry }) {
   const links = evidenceLinks[entry] || [{ label: 'View details', url: '' }];
+  if (links.length === 0) return null;
   return <div className="evidence-links" role="group" aria-label={`Links for ${entry}`}>
     {links.map((link, index) => {
       const href = usableUrl(link.url);
