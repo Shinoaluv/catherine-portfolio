@@ -198,7 +198,7 @@ export const sections = [
     "intro": "Using photography, storytelling, and local organizing to bring people together.",
     "items": [
       {
-        "title": "Freedom Frame",
+        "title": "Freedomframe",
         "role": "Founder & Photographer",
         "date": "Apr 2026 – Present",
         "bullets": [

@@ -7,24 +7,14 @@ export const evidenceLinks = {
       "url": ""
     }
   ],
-  "From Execution to Governance: How AI Reshapes Human Roles Across Career Stages": [
-    {
-      "label": "View research",
-      "url": ""
-    }
-  ],
+  "From Execution to Governance: How AI Reshapes Human Roles Across Career Stages": [],
   "AI and Workforce Readiness for Computer Scientists Across Career Stages": [
     {
       "label": "View my research",
       "url": "/evidence/pioneer-research-paper.pdf"
     }
   ],
-  "AI assistants for digital boundary communication and management": [
-    {
-      "label": "View research",
-      "url": ""
-    }
-  ],
+  "AI assistants for digital boundary communication and management": [],
   "Sound of the Future": [
     {
       "label": "View nonprofit",
@@ -108,7 +98,7 @@ export const evidenceLinks = {
       "url": ""
     }
   ],
-  "Freedom Frame": [
+  "Freedomframe": [
     {
       "label": "View stories",
       "url": ""
