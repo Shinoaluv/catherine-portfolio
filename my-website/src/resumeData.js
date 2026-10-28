@@ -9,7 +9,7 @@ export const sections = [
         "role": "Research under Professor Süleyman Uludağ · University of Michigan",
         "date": "Nov 2025 – Present",
         "bullets": [
-          "Synthesized 41 academic, policy, and industry sources in a structured narrative literature review on skills, professional responsibilities, education, and governance.",
+          "Synthesized 40 academic, policy, and industry sources in a structured narrative literature review on skills, professional responsibilities, education, and governance.",
           "Developed a framework describing shifts toward evaluation at entry level, integration at mid-career, and governance at senior level, distinguishing empirical findings from proposed changes.",
           "Independently researched, wrote, and revised the review under faculty guidance; submitted to a journal for review."
         ]
