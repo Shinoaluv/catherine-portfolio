@@ -76,13 +76,13 @@ export const evidenceLinks = {
   "Freedomframe": [
     {
       "label": "View stories",
-      "url": ""
+      "url": "https://www.instagram.com/freedom_frame_official/"
     }
   ],
   "Between the Lines": [
     {
       "label": "View initiative",
-      "url": ""
+      "url": "https://www.instagram.com/btlbetween_thelines/"
     }
   ],
   "Honors: VEX Robotics": [],
