@@ -24,7 +24,7 @@ export const evidenceLinks = {
   "AI & Employment Research Initiative": [
     {
       "label": "View project",
-      "url": ""
+      "url": "https://ai-employment-research.netlify.app/"
     }
   ],
   "AI & Asian Restaurant Technology Study": [
