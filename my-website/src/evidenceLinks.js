@@ -43,24 +43,9 @@ export const evidenceLinks = {
       "url": "https://events.vex.com/teams/V5RC/1065A"
     }
   ],
-  "Science Olympiad": [
-    {
-      "label": "View activity",
-      "url": ""
-    }
-  ],
-  "Technology Student Association": [
-    {
-      "label": "View activity",
-      "url": ""
-    }
-  ],
-  "Key Club": [
-    {
-      "label": "View activity",
-      "url": ""
-    }
-  ],
+  "Science Olympiad": [],
+  "Technology Student Association": [],
+  "Key Club": [],
   "Math UIL": [],
   "Rice Elite Tech Camp": [],
   "Code 2 College": [],
@@ -86,18 +71,8 @@ export const evidenceLinks = {
       "url": "/evidence/doubles-business-plan.pdf"
     }
   ],
-  "YUBAI": [
-    {
-      "label": "View work",
-      "url": ""
-    }
-  ],
-  "Fang’s Bistro": [
-    {
-      "label": "View work",
-      "url": ""
-    }
-  ],
+  "YUBAI": [],
+  "Fang’s Bistro": [],
   "Freedomframe": [
     {
       "label": "View stories",
@@ -110,46 +85,11 @@ export const evidenceLinks = {
       "url": ""
     }
   ],
-  "Honors: VEX Robotics": [
-    {
-      "label": "View awards",
-      "url": ""
-    }
-  ],
-  "Honors: Technology Student Association": [
-    {
-      "label": "View awards",
-      "url": ""
-    }
-  ],
-  "Honors: Science Olympiad": [
-    {
-      "label": "View awards",
-      "url": ""
-    }
-  ],
-  "Honors: Additional recognition": [
-    {
-      "label": "View awards",
-      "url": ""
-    }
-  ],
-  "Skills: Languages": [
-    {
-      "label": "View portfolio",
-      "url": ""
-    }
-  ],
-  "Skills: Programming": [
-    {
-      "label": "View portfolio",
-      "url": ""
-    }
-  ],
-  "Skills: Engineering & design": [
-    {
-      "label": "View portfolio",
-      "url": ""
-    }
-  ]
+  "Honors: VEX Robotics": [],
+  "Honors: Technology Student Association": [],
+  "Honors: Science Olympiad": [],
+  "Honors: Additional recognition": [],
+  "Skills: Languages": [],
+  "Skills: Programming": [],
+  "Skills: Engineering & design": []
 };
